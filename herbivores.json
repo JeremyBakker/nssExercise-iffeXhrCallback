@@ -1,0 +1,8 @@
+{
+  "herbivores": [
+    {"name":"Bactrian Camel"},
+    {"name":"Koala"},
+    {"name": "Giant Panda"},
+    {"name": "Elephant"}
+  ]
+}

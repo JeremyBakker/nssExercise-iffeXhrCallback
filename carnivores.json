@@ -1,0 +1,8 @@
+{
+  "carnivores": [
+    {"name":"Aardwolf"},
+    {"name":"Badger"},
+    {"name": "Caracal"},
+    {"name": "Dingo"}
+  ]
+}
