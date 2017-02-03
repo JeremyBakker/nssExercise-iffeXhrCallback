@@ -11,7 +11,6 @@ var Predator = (function(originalPredator) {
       loader.addEventListener("load", function () {
         carnivoresArray = JSON.parse(this.responseText).carnivores;
         console.log("carnivores", carnivoresArray);
-        Predator.showCarnivores(carnivoresArray);
         callbackFunction(carnivoresArray);
       });
       loader.open("GET", "carnivores.json");
@@ -23,7 +22,6 @@ var Predator = (function(originalPredator) {
       loader.addEventListener("load", function () {
         herbivoresArray = JSON.parse(this.responseText).herbivores;
         console.log("herbivores", herbivoresArray);
-        Predator.showHerbivores(herbivoresArray);
         callbackFunction(herbivoresArray);
       });
       loader.open("GET", "herbivores.json");
